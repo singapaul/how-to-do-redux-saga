@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy s12",
+      "color": "Black",
+      "price": 150,
+      "Category": "mobile",
+      "brand": "Samsung Galaxy"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy s11",
+      "color": "White",
+      "price": 100,
+      "Category": "mobile",
+      "brand": "Samsung Galaxy"
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy s10",
+      "color": "Orange",
+      "price": 120,
+      "Category": "mobile",
+      "brand": "Samsung Galaxy"
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy s9",
+      "color": "Red",
+      "price": 90,
+      "Category": "mobile",
+      "brand": "Samsung Galaxy"
+    }
+  ]
+}

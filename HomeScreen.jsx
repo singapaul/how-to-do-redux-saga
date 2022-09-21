@@ -1,12 +1,12 @@
 import {View, Text} from 'react-native';
 import React from 'react';
 
-const counter = () => {
+const HomeScreen = () => {
   return (
     <View>
-      <Text>counter</Text>
+      <Text>HomeScreen</Text>
     </View>
   );
 };
 
-export default counter;
+export default HomeScreen;
