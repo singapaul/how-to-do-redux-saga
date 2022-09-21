@@ -6,7 +6,6 @@ import Header from './Components/Header';
 import Main from './Components/Main';
 import ShoppingCart from './Components/ShoppingCart';
 const App = () => {
-  const Stack = createNativeStackNavigator();
   return (
     <SafeAreaView>
       <Header />
