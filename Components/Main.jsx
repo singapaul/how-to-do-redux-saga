@@ -14,6 +14,15 @@ const Main = () => {
     dispatch(productList());
   }, []);
 
+  // Feedback
+  // Write an add to cart function -> good practice to clean up code.
+  // You stop multiple button presses
+  // Add more code is possible, e.g. displaying something
+
+  function addToCartImproved(item) {
+    dispatch(addToCart(item));
+  }
+
   return (
     <View>
       <Button onPress={() => dispatch(emptyCart())} title="empty cart" />
@@ -24,10 +33,7 @@ const Main = () => {
             <Text> ID {item.id}</Text>
             <Text> Price: {item.price}</Text>
             <View style={styles.buttons}>
-              <Button
-                onPress={() => dispatch(addToCart(item))}
-                title="Add to cart"
-              />
+              <Button onPress={addToCartImproved} title="Add to cart" />
               <Button
                 onPress={() => dispatch(removeToCart(item.id))}
                 title="Remove from cart"
